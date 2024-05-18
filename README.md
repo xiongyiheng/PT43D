@@ -1,5 +1,10 @@
 # PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images
 
+Code release for paper "PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images"
+
+![1-teaser-v3-out-1](docs/architecture.png)
+We propose a new approach for generating the probabilistic distribution of 3D shape reconstructions conditioned on a highly ambiguous RGB image.
+
 # Installation
 You can setup the environment using `conda`:
 
