@@ -1,0 +1,33 @@
+{
+    "lst_dir": "../dataset_info_files/ShapeNet_filelists",
+    "cats": {
+        "watercraft": "04530566",
+        "rifle": "04090263",
+        "display": "03211117",
+        "lamp": "03636649",
+        "speaker": "03691459",
+        "cabinet": "02933112",
+        "chair": "03001627",
+        "bench": "02828884",
+        "car": "02958343",
+        "airplane": "02691156",
+        "sofa": "04256520",
+        "table": "04379243",
+        "phone": "04401088",
+        "bed": "02818832",
+        "bookshelf": "02871439"
+
+    },
+    "all_cats": [
+        "cabinet",
+        "chair",
+        "table",
+        "bed",
+        "bookshelf"
+    ],
+    "raw_dirs_v1": {
+        "mesh_dir": "/mnt/raid/xiong/ShapeNet/ShapeNetCore.v1/",
+        "norm_mesh_dir": "/mnt/raid/xiong/ShapeNet/norm_mesh_dir_v1/",
+        "sdf_dir": "/mnt/raid/xiong/ShapeNet/SDF_v1"
+    }
+}
