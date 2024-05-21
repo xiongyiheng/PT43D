@@ -1,4 +1,6 @@
 # PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images
+[[`arXiv`](https://arxiv.org/abs/2405.11914)]
+[[`BibTex`](#citation)]
 
 Code release for the paper "PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images".
 
@@ -36,6 +38,19 @@ Coming soon.
 3. Train the probabilistic transformer to learn the shape distribution conditioned on an RGB image:
 ```
 ./launchers/train_pt43d.sh
+```
+# <a name="citation"></a> Citation
+
+If you find this code helpful, please consider citing:
+```BibTeX
+@misc{xiong2024pt43d,
+      title={PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images}, 
+      author={Yiheng Xiong and Angela Dai},
+      year={2024},
+      eprint={2405.11914},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 # Acknowledgement
