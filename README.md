@@ -1,6 +1,7 @@
 # PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images
 [[`arXiv`](https://arxiv.org/abs/2405.11914)]
 [[`BibTex`](#citation)]
+[[`Video`](https://youtu.be/b_-U7dXalAs?si=twE6gemtEQ4bUJ6h)]
 
 Code release for BMVC 2024 paper "PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images".
 
