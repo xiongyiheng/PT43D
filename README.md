@@ -19,7 +19,7 @@ conda activate pt43d
 # Preparing the Data
 1. Synthetic Data
 
-We render CAD models from [ShapeNet](https://www.shapenet.org) to generate synthetic images to mimic real-world challenges including occlusion and field-of-view truncation. Synthetic training / validation data can be downloaded [here](). We follow the official splits provided by ShapeNet. For each CAD model, we create 21 renderings to capture varying degree of ambiguity. Each rendering can be mapped to potential multiple ground-truth CAD models. Specifically, *.txt contains ground-truth CAD ID(s) for *.png, where * is from 0 to 20.
+We render CAD models from [ShapeNet](https://www.shapenet.org) to generate synthetic images to mimic real-world challenges including occlusion and field-of-view truncation. Synthetic training / validation data can be downloaded [here](). We follow the official splits provided by ShapeNet. For each CAD model, we create 21 renderings to capture varying degree of ambiguity. Each rendering can be mapped to potential multiple ground-truth CAD models. Specifically, *.txt contains ground-truth CAD id(s) for *.png, where * is from 0 to 20.
 
 2. Real-World Data
 
