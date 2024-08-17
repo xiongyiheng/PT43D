@@ -3,6 +3,8 @@
 [[`BibTex`](#citation)]
 [[`Video`](https://youtu.be/b_-U7dXalAs?si=twE6gemtEQ4bUJ6h)]
 
+[Yiheng Xiong](https://xiongyiheng.github.io/) and [Angela Dai](https://www.3dunderstanding.org/index.html)
+
 Official implementation for BMVC 2024 paper "PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images".
 
 ![1-teaser-v3-out-1](docs/teaser.png)
