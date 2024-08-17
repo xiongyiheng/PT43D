@@ -21,11 +21,11 @@ conda activate pt43d
 # Preparing the Data
 1. Synthetic Data
 
-We render CAD models from [ShapeNet](https://www.shapenet.org) to generate synthetic images to mimic real-world challenges including occlusion and field-of-view truncation. Synthetic training / validation data can be downloaded [here](). We follow the official splits provided by ShapeNet. For each CAD model, we create 21 renderings to capture varying degree of ambiguity. Each rendering can be mapped to potential multiple ground-truth CAD models. Specifically, `*.txt` contains ground-truth CAD id(s) for `*.png`, where `*` is from 0 to 20.
+We render CAD models from [ShapeNet](https://www.shapenet.org) to generate synthetic images to mimic real-world challenges including occlusion and field-of-view truncation. Synthetic training / validation data can be downloaded [here](https://syncandshare.lrz.de/getlink/fi3gNTRQW3kYDkFyYErzFa/synthetic%20data.zip). We follow the official splits provided by ShapeNet. For each CAD model, we create 21 renderings to capture varying degree of ambiguity. Each rendering can be mapped to potential multiple ground-truth CAD models. Specifically, `*.txt` contains ground-truth CAD id(s) for `*.png`, where `*` is from 0 to 20.
 
 2. Real-World Data
 
-We adopt real-world image data from [ScanNet](http://www.scan-net.org/) for our experiments. Training set can be downloaded [here]() and validatioon set can be downloaded [here](). We generate per-instance images without background using masks provided by ground-truth annotations (training set) or neural machine [ODISE](https://github.com/NVlabs/ODISE) (validation set). We align each instance image to ground-truth CAD model using annotations provided by [Scan2CAD](https://github.com/skanti/Scan2CAD). For each category, the images are indexed from 0. Specifically, `*.jpg` is the instance image without background, `*.npy` contains the visible points, `*.pt` contains resized tensor without normalization for the corresponding instance image, `*.txt` contains ground-truth CAD id, `*_mask.jpg` is the mask and `*_original_image.txt` contains the path of the original image in ScanNet, where `*` is from 0.
+We adopt real-world image data from [ScanNet](http://www.scan-net.org/) for our experiments. Training set can be downloaded [here](https://syncandshare.lrz.de/getlink/fiGoF8NigpCo4yawv8uQxZ/training_set-real-world.zip) and validatioon set can be downloaded [here](https://syncandshare.lrz.de/getlink/fiQ9MccnjMmhLGrAQKhcBF/validation_set-real-world.zip). We generate per-instance images without background using masks provided by ground-truth annotations (training set) or neural machine [ODISE](https://github.com/NVlabs/ODISE) (validation set). We align each instance image to ground-truth CAD model using annotations provided by [Scan2CAD](https://github.com/skanti/Scan2CAD). For each category, the images are indexed from 0. Specifically, `*.jpg` is the instance image without background, `*.npy` contains the visible points, `*.pt` contains resized tensor without normalization for the corresponding instance image, `*.txt` contains ground-truth CAD id, `*_mask.jpg` is the mask and `*_original_image.txt` contains the path of the original image in ScanNet, where `*` is from 0.
 
 # Training
 1. First train the `P-VQ-VAE` on `ShapeNet`:
@@ -43,11 +43,11 @@ We adopt real-world image data from [ScanNet](http://www.scan-net.org/) for our 
 ./launchers/train_pt43d.sh
 ```
 # Pretrained Checkpoints
-1. [P-VQ-VAE]().
+1. [P-VQ-VAE](https://syncandshare.lrz.de/getlink/fiWM6a31jEuhUzJHTCMRZ8/vqvae.pth).
 
-2. PT43D being trained on synthetic training pairs - [PT43D_synthetic]().
+2. PT43D being trained on synthetic training pairs - [PT43D_synthetic](https://syncandshare.lrz.de/getlink/fiGWSYdYH6CUpsxrzi37CZ/pt43d_synthetic.pth).
 
-3. PT43D being fine-tuned on real-world training pairs - [PT43D_real-world]().
+3. PT43D being fine-tuned on real-world training pairs - [PT43D_real-world](https://syncandshare.lrz.de/getlink/fiSxFfmgSNHFFF5Vd4Zdbt/pt43d_real-world.pth).
 
 # <a name="citation"></a> Citation
 
