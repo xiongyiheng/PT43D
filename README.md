@@ -45,9 +45,9 @@ We adopt real-world image data from [ScanNet](http://www.scan-net.org/) for our 
 # Pretrained Checkpoints
 1. [P-VQ-VAE](https://syncandshare.lrz.de/getlink/fiWM6a31jEuhUzJHTCMRZ8/vqvae.pth).
 
-2. PT43D being trained on synthetic training pairs - [PT43D_synthetic](https://syncandshare.lrz.de/getlink/fiGWSYdYH6CUpsxrzi37CZ/pt43d_synthetic.pth).
+2. [PT43D](https://syncandshare.lrz.de/getlink/fiGWSYdYH6CUpsxrzi37CZ/pt43d_synthetic.pth) being trained on synthetic training pairs.
 
-3. PT43D being fine-tuned on real-world training pairs - [PT43D_real-world](https://syncandshare.lrz.de/getlink/fiSxFfmgSNHFFF5Vd4Zdbt/pt43d_real-world.pth).
+3. [PT43D](https://syncandshare.lrz.de/getlink/fiSxFfmgSNHFFF5Vd4Zdbt/pt43d_real-world.pth) being fine-tuned on real-world training pairs.
 
 # <a name="citation"></a> Citation
 
