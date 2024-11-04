@@ -53,13 +53,11 @@ We adopt real-world image data from [ScanNet](http://www.scan-net.org/) for our 
 
 If you find this code helpful, please consider citing:
 ```BibTeX
-@misc{xiong2024pt43d,
-      title={PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images}, 
-      author={Yiheng Xiong and Angela Dai},
-      year={2024},
-      eprint={2405.11914},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{xiong2024pt43d,
+  title={PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images},
+  author={Xiong, Yiheng and Dai, Angela},
+  journal={arXiv preprint arXiv:2405.11914},
+  year={2024}
 }
 ```
 
