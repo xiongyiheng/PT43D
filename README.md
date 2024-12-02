@@ -5,7 +5,7 @@
 
 Yiheng Xiong and [Angela Dai](https://www.3dunderstanding.org/index.html)
 
-Official implementation for BMVC 2024 paper (oral) "PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images".
+Official implementation for BMVC 2024 paper (Oral) "PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images".
 
 ![1-teaser-v3-out-1](docs/teaser.png)
 We propose a new approach for generating the probabilistic distribution of 3D shape reconstructions conditioned on a highly ambiguous RGB image, enabling multiple diverse sampled hypotheses during inference.
