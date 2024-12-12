@@ -2,6 +2,7 @@
 [[`arXiv`](https://arxiv.org/abs/2405.11914)]
 [[`BibTex`](#citation)]
 [[`Video`](https://youtu.be/b_-U7dXalAs?si=twE6gemtEQ4bUJ6h)]
+[[`Paper`](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_77/paper.pdf)]
 
 Yiheng Xiong and [Angela Dai](https://www.3dunderstanding.org/index.html)
 
